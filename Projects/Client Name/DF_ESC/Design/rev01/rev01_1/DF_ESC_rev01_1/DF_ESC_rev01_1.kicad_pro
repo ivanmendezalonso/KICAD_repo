@@ -407,7 +407,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Ivan Electronics Templates.kicad_pro",
+    "filename": "DF_ESC_rev01_1.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -516,6 +516,38 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
+    ],
+    [
+      "c1325341-5dce-4f06-9208-f7301a190812",
+      "OVERVIEW"
+    ],
+    [
+      "45b6accf-3fc1-445c-ae1c-ee972cc3cd8b",
+      "BLOCK DIAGRAM"
+    ],
+    [
+      "8463c0d9-2b83-4fda-8732-36fe069c812d",
+      "CAN"
+    ],
+    [
+      "138932fe-f685-46a1-bb06-1768136a532b",
+      "MCU"
+    ],
+    [
+      "ebfeafe7-4d70-4ef9-bb18-a00f088a6e19",
+      "MOSFET DRIVER"
+    ],
+    [
+      "55dff34f-5e5e-4a64-9439-c557a4819ba0",
+      "MOSFETs"
+    ],
+    [
+      "25779a9b-058f-4dbc-be2a-ac20c38404a1",
+      "FILTERS"
+    ],
+    [
+      "9fe517ea-e439-46a0-9c9c-83eb743bbdc0",
+      "MECHANICAL"
     ]
   ],
   "text_variables": {}
