@@ -16,4 +16,9 @@
   (lib_symbols
   )
 
+
+  (text "[5] - MOSFET DRIVER" (at 85.09 27.94 0)
+    (effects (font (size 8 8) bold) (justify left bottom))
+    (uuid af3828e0-9ba1-4b80-85f7-92c26fcde9f6)
+  )
 )

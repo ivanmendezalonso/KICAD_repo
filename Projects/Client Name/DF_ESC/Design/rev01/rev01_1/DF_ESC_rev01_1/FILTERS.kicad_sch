@@ -16,4 +16,9 @@
   (lib_symbols
   )
 
+
+  (text "[7] - FILTERS " (at 106.68 29.21 0)
+    (effects (font (size 8 8) bold) (justify left bottom))
+    (uuid 24c22036-2705-4e45-92aa-a71042ebdea8)
+  )
 )

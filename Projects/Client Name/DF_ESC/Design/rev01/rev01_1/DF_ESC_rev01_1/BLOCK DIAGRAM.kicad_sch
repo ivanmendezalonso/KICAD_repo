@@ -1241,7 +1241,7 @@
     (effects (font (size 3 3) bold) (justify left bottom))
     (uuid 9f120fa7-4b6d-42a8-a9c4-b6de649388e8)
   )
-  (text "BLOCK DIAGRAM" (at 110.49 27.94 0)
+  (text "[2] - BLOCK DIAGRAM" (at 87.63 27.94 0)
     (effects (font (size 8 8) bold) (justify left bottom))
     (uuid a55405b1-89f4-4de5-8208-0281a7f3f22a)
   )

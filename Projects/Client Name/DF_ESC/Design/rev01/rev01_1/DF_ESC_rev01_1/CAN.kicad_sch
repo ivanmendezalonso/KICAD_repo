@@ -16,4 +16,9 @@
   (lib_symbols
   )
 
+
+  (text "[4] - BUS CAN" (at 92.71 29.21 0)
+    (effects (font (size 8 8) (thickness 1.6) bold) (justify left bottom))
+    (uuid 7d25b136-3293-4b1d-a2f0-5cd6241dfc93)
+  )
 )
