@@ -3638,7 +3638,7 @@
     )
   )
 
-  (text "[3] - MCU" (at 123.19 31.75 0)
+  (text "[3] - MC" (at 123.19 31.75 0)
     (effects (font (size 8 8) (thickness 1.6) bold) (justify left bottom))
     (uuid 0126506d-c4e0-488a-abd6-dc2819ebe290)
   )
