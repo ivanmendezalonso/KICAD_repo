@@ -1,4 +1,4 @@
-(module "HTSSOP-56_L14.0-W6.1-P0.50-LS8.1-BL-EP" (layer F.Cu) (tedit 65B98E89)
+(module "HTSSOP-56_L14.0-W6.1-P0.50-LS8.1-BL-EP" (layer F.Cu) (tedit 65BA3032)
   (descr "HTSSOP-56_L14.0-W6.1-P0.50-LS8.1-BL-EP footprint")
   (tags "HTSSOP-56_L14.0-W6.1-P0.50-LS8.1-BL-EP footprint C79740")
   (attr smd)
