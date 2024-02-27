@@ -1,0 +1,24 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f3215ae7-cc87-4055-b3bb-d24488307188)
+
+  (paper "A4")
+
+  (title_block
+    (title "DF_ESC_rev01_1")
+    (date "2024-01-14")
+    (rev "rev01_1")
+    (company "Ivan Mendez IMA Design")
+    (comment 3 "i.mendezalon@hotmail.com")
+    (comment 4 "Ivan Mendez")
+  )
+
+  (lib_symbols
+  )
+
+
+  (text "[8] - MECHANICAL kjlkjlkjlk" (at 101.6 27.94 0)
+    (effects (font (size 8 8) bold) (justify left bottom))
+    (uuid e85ed5db-da51-442d-9d09-f8eebacea7e6)
+  )
+)

@@ -519,19 +519,19 @@
     ],
     [
       "c1325341-5dce-4f06-9208-f7301a190812",
-      "[1] - OVERVIEW"
+      "[1] - BLOCK DIAGRAM"
     ],
     [
       "45b6accf-3fc1-445c-ae1c-ee972cc3cd8b",
-      "[2] - BLOCK DIAGRAM"
+      "[2] - INPUT PROTECTION"
+    ],
+    [
+      "972ef474-8d49-43c2-822c-942f76f71b8f",
+      "[3] - STEP DOWN"
     ],
     [
       "138932fe-f685-46a1-bb06-1768136a532b",
-      "[3] - MCU"
-    ],
-    [
-      "8463c0d9-2b83-4fda-8732-36fe069c812d",
-      "[4] - CAN"
+      "[4] - MCU"
     ],
     [
       "ebfeafe7-4d70-4ef9-bb18-a00f088a6e19",
@@ -542,12 +542,20 @@
       "[6] - MOSFETs"
     ],
     [
+      "8463c0d9-2b83-4fda-8732-36fe069c812d",
+      "[7] - CAN"
+    ],
+    [
       "25779a9b-058f-4dbc-be2a-ac20c38404a1",
-      "[7] - FILTERS"
+      "[8] - FILTERS"
+    ],
+    [
+      "c702da4c-b543-4444-bea9-87a984dd84da",
+      "[9] - USB"
     ],
     [
       "9fe517ea-e439-46a0-9c9c-83eb743bbdc0",
-      "[8] - MECHANICAL"
+      "[10] - MECHANICAL"
     ]
   ],
   "text_variables": {}

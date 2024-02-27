@@ -3931,11 +3931,6 @@
     )
     (pin "1" (uuid d0643080-6da2-406c-a326-b4757389183d))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "#PWR02") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "#PWR02") (unit 1)
@@ -3966,6 +3961,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C?") (unit 1)
+        )
       )
     )
   )
@@ -3991,6 +3989,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "J?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "J?") (unit 1)
         )
       )
@@ -4019,6 +4020,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C?") (unit 1)
+        )
       )
     )
   )
@@ -4045,6 +4049,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C?") (unit 1)
+        )
       )
     )
   )
@@ -4069,6 +4076,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "R?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "R?") (unit 1)
         )
       )
@@ -4172,6 +4182,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R?") (unit 1)
+        )
       )
     )
   )
@@ -4198,6 +4211,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R2") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R2") (unit 1)
+        )
       )
     )
   )
@@ -4222,6 +4238,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -4271,13 +4290,11 @@
     (pin "1" (uuid eb59e330-d8e2-4eee-b1f0-8e56bec1732f))
     (pin "2" (uuid a304f18c-6dc6-42ee-b235-7d00b67fd6cd))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -4302,13 +4319,11 @@
     (pin "1" (uuid 314b4482-1094-4711-92cd-7f8da5947b5e))
     (pin "2" (uuid 768d42af-8bb2-4e48-9674-8c0178acc2b9))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -4362,6 +4377,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C?") (unit 1)
+        )
       )
     )
   )
@@ -4413,6 +4431,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C1") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C1") (unit 1)
+        )
       )
     )
   )
@@ -4435,13 +4456,11 @@
     (pin "1" (uuid eb28936c-417e-431b-b580-f6b1bbb23f01))
     (pin "2" (uuid 5f8cd6b2-9dc8-4364-a123-0019713b0bae))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -4495,6 +4514,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "Y?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "Y?") (unit 1)
+        )
       )
     )
   )
@@ -4519,6 +4541,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "R1") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "R1") (unit 1)
         )
       )
@@ -4622,6 +4647,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R3") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R3") (unit 1)
+        )
       )
     )
   )
@@ -4648,6 +4676,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R?") (unit 1)
+        )
       )
     )
   )
@@ -4670,13 +4701,11 @@
     (pin "1" (uuid a9c54a2a-45f3-4c9f-a714-de5e4766ca29))
     (pin "2" (uuid b0652534-efcd-45b3-bcac-176deafefffa))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -4730,6 +4759,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R?") (unit 1)
+        )
       )
     )
   )
@@ -4756,6 +4788,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "TH?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "TH?") (unit 1)
+        )
       )
     )
   )
@@ -4780,6 +4815,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "D?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "D?") (unit 1)
         )
       )
@@ -4833,6 +4871,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "D?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "D?") (unit 1)
+        )
       )
     )
   )
@@ -4857,6 +4898,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -4935,6 +4979,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R?") (unit 1)
+        )
       )
     )
   )
@@ -4957,13 +5004,11 @@
     (pin "1" (uuid e5cc3efa-5302-4119-9746-4336c231129c))
     (pin "2" (uuid 1ed505b8-4afd-4488-97af-0d19acf05b0a))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -5017,6 +5062,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C?") (unit 1)
+        )
       )
     )
   )
@@ -5041,6 +5089,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "FB?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "FB?") (unit 1)
         )
       )
@@ -5073,6 +5124,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "J?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "J?") (unit 1)
         )
       )
@@ -5126,6 +5180,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "C?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "C?") (unit 1)
+        )
       )
     )
   )
@@ -5152,6 +5209,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "D?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "D?") (unit 1)
+        )
       )
     )
   )
@@ -5176,6 +5236,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -5229,6 +5292,9 @@
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "R?") (unit 1)
         )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "R?") (unit 1)
+        )
       )
     )
   )
@@ -5250,11 +5316,6 @@
     )
     (pin "1" (uuid 0315e646-ed78-4112-ba30-7532a18a2493))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "#PWR01") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "#PWR01") (unit 1)
@@ -5356,13 +5417,11 @@
     (pin "1" (uuid 63df09fa-350d-40b0-9158-adb012418350))
     (pin "2" (uuid 1d88f42c-0745-4505-9377-233317afb2c7))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -5389,6 +5448,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "SW?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "SW?") (unit 1)
         )
       )
@@ -5419,6 +5481,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "J?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "J?") (unit 1)
         )
       )
@@ -5478,7 +5543,7 @@
   (symbol (lib_id "MCU_ST_STM32F4:STM32F405RGTx") (at 173.99 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4b844e4-2946-4546-8af1-7e5e37a5dd0d)
-    (property "Reference" "U1" (at 161.29 54.61 0)
+    (property "Reference" "U?" (at 161.29 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32F405RGTx" (at 184.15 48.26 0)
@@ -5555,14 +5620,12 @@
     (pin "32" (uuid eb57823a-def4-44ad-82a5-2c7f31f5f867))
     (pin "51" (uuid 1aa88ea0-84b4-466d-bb2c-1c90f5944fa9))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "U1") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
           (reference "U?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -5586,13 +5649,11 @@
     (pin "1" (uuid 9338c57f-8d0b-4121-b3cb-41069d700dd8))
     (pin "2" (uuid a6d8f3de-9d29-49ee-8aae-710de911c86d))
     (instances
-      (project "MCU"
-        (path "/adf0c99f-52aa-47dc-a7b3-573848d320f0"
-          (reference "C?") (unit 1)
-        )
-      )
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "C?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "C?") (unit 1)
         )
       )
@@ -5619,6 +5680,9 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/138932fe-f685-46a1-bb06-1768136a532b"
+          (reference "R?") (unit 1)
+        )
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
           (reference "R?") (unit 1)
         )
       )
