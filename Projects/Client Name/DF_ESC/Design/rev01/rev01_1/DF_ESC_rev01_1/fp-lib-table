@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "DF_ESC_Footprint_Library")(type "KiCad")(uri "${KICAD7_FOOTPRINT_MAIN_DIR}/DF_ESC_Footprint_Library.pretty")(options "")(descr ""))
-  (lib (name "7461084")(type "KiCad")(uri "${KICAD7_FOOTPRINT_MAIN_DIR}/7461084")(options "")(descr ""))
+  (lib (name "7461084")(type "KiCad")(uri "C:/Github_TNP/KICAD_repo/Resources/Libraries/KiCAD/7461084")(options "")(descr ""))
+  (lib (name "conector_XH2PWBPZ")(type "KiCad")(uri "C:/Github_TNP/KICAD_repo/Resources/Libraries/KiCAD/LCSC/JLC2KiCad_lib/conector_XH2PWBPZ")(options "")(descr ""))
+  (lib (name "DF_ESC_Symbols_Library")(type "KiCad")(uri "C:/Github_TNP/KICAD_repo/Resources/Libraries/KiCAD/DF_ESC_Symbols_Library")(options "")(descr ""))
 )
