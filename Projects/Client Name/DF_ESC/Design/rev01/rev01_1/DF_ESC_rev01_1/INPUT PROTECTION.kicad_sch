@@ -830,6 +830,10 @@
     (stroke (width 0) (type default))
     (uuid 7c32f115-2ef9-46c3-b559-fcb16d392f48)
   )
+  (wire (pts (xy 182.118 102.87) (xy 182.118 106.172))
+    (stroke (width 0) (type default))
+    (uuid 82f06ec7-da26-4c05-b2bf-945d3613d29b)
+  )
   (wire (pts (xy 182.118 92.202) (xy 197.612 92.202))
     (stroke (width 0) (type default))
     (uuid 88c7ae76-efff-46c0-abfd-9c8ac0e4670c)
@@ -865,10 +869,6 @@
   (wire (pts (xy 197.612 106.172) (xy 197.612 102.616))
     (stroke (width 0) (type default))
     (uuid a0538676-e22a-4451-9ee3-4300fb4aa8aa)
-  )
-  (wire (pts (xy 182.118 102.87) (xy 182.118 106.172))
-    (stroke (width 0) (type default))
-    (uuid a0b011de-32e4-43b0-af30-e70e9be8dd51)
   )
   (wire (pts (xy 237.744 73.914) (xy 237.744 80.01))
     (stroke (width 0) (type default))
@@ -1018,7 +1018,7 @@
     (effects (font (size 1 1) bold (color 132 0 0 1)) (justify left bottom))
     (uuid 8cbbee43-155c-4b48-9f5c-0fc605eaf1da)
   )
-  (text "[2] - INPUT PROTECTION" (at 80.518 32.258 0)
+  (text "[2] - INPUT PROTECTION" (at 81.28 29.21 0)
     (effects (font (size 8 8) bold) (justify left bottom))
     (uuid a55405b1-89f4-4de5-8208-0281a7f3f22a)
   )
@@ -1066,7 +1066,7 @@
   (symbol (lib_id "power:GND") (at 189.992 107.696 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21c04610-42f8-4c28-a122-62b648556dd8)
-    (property "Reference" "#PWR05" (at 189.992 114.046 0)
+    (property "Reference" "#PWR07" (at 189.992 114.046 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.992 113.03 0)
@@ -1082,7 +1082,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1091,7 +1091,7 @@
   (symbol (lib_id "power:GND") (at 132.588 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 239d7950-79c8-4f1c-82cb-b7b47dfef560)
-    (property "Reference" "#PWR08" (at 132.588 167.64 0)
+    (property "Reference" "#PWR04" (at 132.588 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.588 166.624 0)
@@ -1107,7 +1107,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1116,13 +1116,13 @@
   (symbol (lib_id "Device:C") (at 197.612 98.806 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28f569ac-53e0-4db9-81b7-08083345a97d)
-    (property "Reference" "C?" (at 200.66 97.536 0)
+    (property "Reference" "C4" (at 200.66 97.536 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 200.66 100.076 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 198.5772 102.616 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 198.5772 102.616 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 197.612 98.806 0)
@@ -1133,7 +1133,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "C?") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1142,13 +1142,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:LKMI2501K821MF") (at 131.064 87.884 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2f117753-d14f-4192-ae13-d8a9589eeff0)
-    (property "Reference" "C?" (at 124.714 96.266 0)
+    (property "Reference" "C1" (at 124.714 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LKMI2501K821MF" (at 112.014 102.108 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 135.89 78.994 0)
+    (property "Footprint" "DF_ESC_Footprint_Library_Casa:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 135.89 78.994 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/48887.html" (at 112.014 76.454 0)
@@ -1165,7 +1165,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "C?") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1211,7 +1211,7 @@
     (property "Value" "2k2" (at 130.556 140.462 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 126.746 139.192 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 126.746 139.192 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.524 139.192 0)
@@ -1231,13 +1231,13 @@
   (symbol (lib_id "Device:LED") (at 237.744 96.774 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ce685b8-ce97-494f-825e-88bf0782bb41)
-    (property "Reference" "D?" (at 241.554 97.0915 90)
+    (property "Reference" "D2" (at 241.554 97.0915 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "LED_G" (at 241.554 99.6315 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 237.744 96.774 0)
+    (property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" (at 237.744 96.774 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 237.744 96.774 0)
@@ -1248,7 +1248,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "D?") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1257,7 +1257,7 @@
   (symbol (lib_id "power:GND") (at 135.382 104.648 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d380cbd-5f28-48a8-8dab-baa0d7c72bb8)
-    (property "Reference" "#PWR04" (at 135.382 110.998 0)
+    (property "Reference" "#PWR05" (at 135.382 110.998 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.382 109.982 0)
@@ -1273,7 +1273,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1282,13 +1282,13 @@
   (symbol (lib_id "Device:R") (at 237.744 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b610ec1-7576-4ccb-9d88-6bf0391b38a4)
-    (property "Reference" "R?" (at 239.776 82.55 0)
+    (property "Reference" "R4" (at 239.776 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "39k" (at 239.776 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 235.966 83.82 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 235.966 83.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 237.744 83.82 0)
@@ -1299,7 +1299,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "R?") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1308,13 +1308,13 @@
   (symbol (lib_id "Device:Thermistor_NTC") (at 128.524 156.464 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7de88e86-2e94-4d25-b3ad-ef32c95a7c69)
-    (property "Reference" "TH2" (at 131.826 155.5115 0)
+    (property "Reference" "TH1" (at 131.826 155.5115 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Thermistor_NTC" (at 131.826 158.0515 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 128.524 155.194 0)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 128.524 155.194 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.524 155.194 0)
@@ -1325,7 +1325,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "TH2") (unit 1)
+          (reference "TH1") (unit 1)
         )
       )
     )
@@ -1359,13 +1359,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:LKMI2501K821MF") (at 139.954 87.884 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 83338cae-45bd-487a-b65d-e0b971b27b01)
-    (property "Reference" "C?" (at 144.272 96.266 0)
+    (property "Reference" "C2" (at 144.272 96.266 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LKMI2501K821MF" (at 143.256 96.7105 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "DF_ESC_Footprint_Library:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 144.78 78.994 0)
+    (property "Footprint" "DF_ESC_Footprint_Library_Casa:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 144.78 78.994 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/48887.html" (at 120.904 76.454 0)
@@ -1382,7 +1382,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "C?") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -1391,7 +1391,7 @@
   (symbol (lib_id "Diode:SMAJ60CA") (at 93.472 78.232 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a338545e-64bf-4e43-88d0-c0d6862eb997)
-    (property "Reference" "D4" (at 96.012 76.962 90)
+    (property "Reference" "D1" (at 96.012 76.962 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMAJ60CA" (at 96.012 79.502 90)
@@ -1408,7 +1408,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1417,7 +1417,7 @@
   (symbol (lib_id "power:+VDC") (at 237.744 65.786 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3eaf75b-a91c-4470-8ff0-f24942825119)
-    (property "Reference" "#PWR02" (at 237.744 68.326 0)
+    (property "Reference" "#PWR08" (at 237.744 68.326 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 237.744 58.42 0)
@@ -1433,7 +1433,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1442,13 +1442,13 @@
   (symbol (lib_id "Device:C") (at 144.018 136.906 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9cec5ac-4fc9-42a6-b882-f24b3c60208a)
-    (property "Reference" "C1" (at 147.066 135.636 0)
+    (property "Reference" "C3" (at 147.066 135.636 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 147.066 138.176 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 144.9832 140.716 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 144.9832 140.716 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 144.018 136.906 0)
@@ -1459,7 +1459,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "C1") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1468,13 +1468,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:XT60PW-M") (at 70.104 85.344 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbeaccf3-15f3-4b74-8897-b975d3405796)
-    (property "Reference" "CN1" (at 63.5 73.914 0)
+    (property "Reference" "J1" (at 63.5 73.914 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "XT60PW-M" (at 63.5 76.454 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library:CONN-TH_XT60PW-M" (at 62.484 92.71 0)
+    (property "Footprint" "DF_ESC_Footprint_Library_Casa:CONN-TH_XT60PW-M" (at 62.484 92.71 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180125/C98732_15168617837851301983.pdf" (at 77.216 90.17 0)
@@ -1490,7 +1490,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "CN1") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1499,7 +1499,7 @@
   (symbol (lib_id "power:+3V3") (at 128.524 126.746 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcb2c786-b12c-430d-a383-34bec517dfb4)
-    (property "Reference" "#PWR06" (at 128.524 130.556 0)
+    (property "Reference" "#PWR03" (at 128.524 130.556 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 128.524 121.92 0)
@@ -1515,7 +1515,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1524,7 +1524,7 @@
   (symbol (lib_id "power:GND") (at 75.184 91.186 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c75b08f6-bcd2-4926-827d-222b84b7bdc0)
-    (property "Reference" "#PWR03" (at 75.184 97.536 0)
+    (property "Reference" "#PWR01" (at 75.184 97.536 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 75.184 96.52 0)
@@ -1540,7 +1540,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1549,7 +1549,7 @@
   (symbol (lib_id "power:GND") (at 144.018 142.494 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cce8aea5-3832-416c-9cef-146b98281d21)
-    (property "Reference" "#PWR07" (at 144.018 148.844 0)
+    (property "Reference" "#PWR06" (at 144.018 148.844 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.018 147.828 0)
@@ -1565,7 +1565,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1574,13 +1574,13 @@
   (symbol (lib_id "Device:R") (at 182.118 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d0644201-c8dc-40d0-a40a-d7afce9ae650)
-    (property "Reference" "R?" (at 184.15 97.79 0)
+    (property "Reference" "R3" (at 184.15 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 184.15 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 180.34 99.06 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 180.34 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.118 99.06 0)
@@ -1591,7 +1591,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "R?") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1600,13 +1600,13 @@
   (symbol (lib_id "Device:R") (at 182.118 85.344 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3e70d02-0a7a-472c-b112-ffee8c3dc397)
-    (property "Reference" "R?" (at 184.15 84.074 0)
+    (property "Reference" "R2" (at 184.15 84.074 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "39k" (at 184.15 86.614 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 180.34 85.344 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 180.34 85.344 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 182.118 85.344 0)
@@ -1617,7 +1617,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "R?") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1626,7 +1626,7 @@
   (symbol (lib_id "power:+VDC") (at 80.01 64.516 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64e27ec-9bda-4978-abfd-e4a36abc9b22)
-    (property "Reference" "#PWR01" (at 80.01 67.056 0)
+    (property "Reference" "#PWR02" (at 80.01 67.056 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 80.01 57.15 0)
@@ -1642,7 +1642,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
