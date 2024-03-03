@@ -828,7 +828,7 @@
   (symbol (lib_id "power:GND") (at 110.744 89.408 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 057facdf-5ce5-4a6b-acd1-d24938313c2c)
-    (property "Reference" "#PWR098" (at 110.744 95.758 0)
+    (property "Reference" "#PWR097" (at 110.744 95.758 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 110.744 93.726 0)
@@ -844,7 +844,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -853,7 +853,7 @@
   (symbol (lib_id "Device:R") (at 121.412 81.788 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13462d0f-392f-4a6b-a97c-2fcfa13cd4cd)
-    (property "Reference" "R60" (at 123.952 80.518 0)
+    (property "Reference" "R57" (at 123.952 80.518 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 123.952 83.058 0)
@@ -870,7 +870,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R60") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -879,7 +879,7 @@
   (symbol (lib_id "DF_ESC_Symbol_Library_Casa:USB_C_Receptacle_USB2.0") (at 64.262 87.376 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 219a5946-f3c0-4be6-896c-9e545a5e63d5)
-    (property "Reference" "J6" (at 64.262 64.516 0)
+    (property "Reference" "J8" (at 64.262 64.516 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C_Receptacle_USB2.0" (at 64.262 67.056 0)
@@ -912,7 +912,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "J6") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -921,7 +921,7 @@
   (symbol (lib_id "DF_ESC_Symbol_Library_Casa:PUSB3AB6Z") (at 185.928 111.506 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4970fc2e-5d5f-4a54-bb2a-cf2d1d0ca47d)
-    (property "Reference" "U11" (at 185.928 112.776 0)
+    (property "Reference" "U10" (at 185.928 112.776 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PUSB3AB6Z" (at 185.928 115.316 0)
@@ -946,7 +946,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -955,7 +955,7 @@
   (symbol (lib_id "Device:R") (at 49.022 118.618 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 520123db-2775-4b0d-9b00-9f79e9aeef78)
-    (property "Reference" "R56" (at 51.562 117.348 0)
+    (property "Reference" "R53" (at 51.562 117.348 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 51.562 119.888 0)
@@ -972,7 +972,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R56") (unit 1)
+          (reference "R53") (unit 1)
         )
       )
     )
@@ -981,7 +981,7 @@
   (symbol (lib_id "Device:R") (at 183.896 85.344 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6240bf9d-9cbf-423a-928e-f48c9a1f044e)
-    (property "Reference" "R61" (at 183.896 79.502 90)
+    (property "Reference" "R58" (at 183.896 79.502 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 183.896 82.042 90)
@@ -998,7 +998,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R61") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -1007,7 +1007,7 @@
   (symbol (lib_id "power:GND") (at 64.262 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cafd830-0e6a-42f0-b753-a375280a6326)
-    (property "Reference" "#PWR096" (at 64.262 133.35 0)
+    (property "Reference" "#PWR095" (at 64.262 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.262 131.318 0)
@@ -1023,7 +1023,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -1032,7 +1032,7 @@
   (symbol (lib_id "power:GND") (at 121.412 89.408 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6d73369c-d2d3-4e03-a2e5-3c941895ef0c)
-    (property "Reference" "#PWR099" (at 121.412 95.758 0)
+    (property "Reference" "#PWR098" (at 121.412 95.758 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.412 93.726 0)
@@ -1048,7 +1048,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -1057,7 +1057,7 @@
   (symbol (lib_id "Device:R") (at 96.012 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c5fff12-6716-489c-8a11-e07e2c74e33d)
-    (property "Reference" "R58" (at 98.552 60.96 0)
+    (property "Reference" "R55" (at 98.552 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 98.552 63.5 0)
@@ -1074,7 +1074,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R58") (unit 1)
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -1083,7 +1083,7 @@
   (symbol (lib_id "power:+5V") (at 96.012 56.642 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b41265e5-8458-4238-8b26-b4eb4624e033)
-    (property "Reference" "#PWR097" (at 96.012 60.452 0)
+    (property "Reference" "#PWR096" (at 96.012 60.452 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 96.012 51.816 0)
@@ -1099,7 +1099,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1108,7 +1108,7 @@
   (symbol (lib_id "Device:R") (at 56.642 118.618 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c94a9c7c-88fb-4a5a-8925-0322244e5b19)
-    (property "Reference" "R57" (at 59.182 117.348 0)
+    (property "Reference" "R54" (at 59.182 117.348 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 59.182 119.888 0)
@@ -1125,7 +1125,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R57") (unit 1)
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -1134,7 +1134,7 @@
   (symbol (lib_id "Device:R") (at 184.404 94.234 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d3e7458d-5a9c-4297-9a60-25bdc371ecf4)
-    (property "Reference" "R62" (at 184.404 88.392 90)
+    (property "Reference" "R59" (at 184.404 88.392 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22R" (at 184.404 90.932 90)
@@ -1151,7 +1151,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R62") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -1160,7 +1160,7 @@
   (symbol (lib_id "Device:R") (at 110.744 84.836 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3c6ff0a-c9ff-48a8-a70a-0095a269434f)
-    (property "Reference" "R59" (at 113.284 83.566 0)
+    (property "Reference" "R56" (at 113.284 83.566 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "5k1" (at 113.284 86.106 0)
@@ -1177,7 +1177,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "R59") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -1186,7 +1186,7 @@
   (symbol (lib_id "power:GND") (at 202.438 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8131f69-1199-41e2-b458-2fb3fbf1425c)
-    (property "Reference" "#PWR0100" (at 202.438 135.89 0)
+    (property "Reference" "#PWR099" (at 202.438 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 202.438 133.858 0)
@@ -1202,7 +1202,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/c702da4c-b543-4444-bea9-87a984dd84da"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )

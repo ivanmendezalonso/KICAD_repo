@@ -715,7 +715,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 75.946 79.248 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e422f77-a4ae-4830-94fa-ac9b066ff581)
-    (property "Reference" "#FLG03" (at 75.946 77.343 0)
+    (property "Reference" "#FLG01" (at 75.946 77.343 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 75.946 74.93 0)
@@ -731,7 +731,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -893,7 +893,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 231.013 79.248 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a66aee39-6371-4566-b25e-5ccd0a665713)
-    (property "Reference" "#FLG04" (at 231.013 77.343 0)
+    (property "Reference" "#FLG02" (at 231.013 77.343 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 231.013 74.93 0)
@@ -909,7 +909,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/972ef474-8d49-43c2-822c-942f76f71b8f"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
