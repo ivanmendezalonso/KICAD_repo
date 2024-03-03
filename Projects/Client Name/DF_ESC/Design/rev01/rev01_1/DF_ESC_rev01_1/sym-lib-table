@@ -7,4 +7,5 @@
   (lib (name "DF_ESC_Symbol_Library_Casa")(type "KiCad")(uri "C:/Users/imend/Documents/GitHub/KICAD_repo/Resources/Libraries/KiCAD/DF_ESC_Symbols_Library/DF_ESC_Symbol_Library.kicad_sym")(options "")(descr ""))
   (lib (name "7461084_casa")(type "KiCad")(uri "C:/Users/imend/Documents/GitHub/KICAD_repo/Resources/Libraries/KiCAD/7461084/7461084.kicad_sym")(options "")(descr ""))
   (lib (name "HX25003-8AWB")(type "KiCad")(uri "C:/Users/imend/Documents/GitHub/KICAD_repo/Resources/Libraries/KiCAD/LCSC/JLC2KiCad_lib/Conn_01x08/HX25003-8AWB.kicad_sym")(options "")(descr "")(hidden))
+  (lib (name "PESD3V3U1UA,115")(type "KiCad")(uri "C:/Users/imend/Documents/GitHub/KICAD_repo/Resources/Libraries/KiCAD/LCSC/JLC2KiCad_lib/PESD3V3U1UA/PESD3V3U1UA,115.kicad_sym")(options "")(descr ""))
 )
