@@ -274,6 +274,43 @@
         )
       )
     )
+    (symbol "DF_ESC_Symbol_Library_TNP:Net_Tie_PWR" (in_bom yes) (on_board yes)
+      (property "Reference" "NT" (at 0 2.794 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Net_Tie_PWR" (at 0 10.414 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm" (at 0.254 7.874 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at -0.508 2.286 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Net Tie 6mm X 2mm" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Net_Tie_PWR_0_1"
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "Net_Tie_PWR_1_1"
+        (pin passive line (at -2.54 0 0) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 0 180) (length 2.54)
+          (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1982,13 +2019,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:HSBA15810C") (at 165.1 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 069ff674-ab50-47f1-8743-10a404e4c65e)
-    (property "Reference" "Q3" (at 168.91 66.04 0)
+    (property "Reference" "Q2" (at 168.91 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HSBA15810C" (at 168.91 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 169.418 62.484 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 169.418 62.484 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/113566.html" (at 149.606 59.436 0)
@@ -2009,7 +2046,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "Q3") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -2018,13 +2055,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:HSBA15810C") (at 95.25 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 144552e4-5639-4079-842e-6948bf2c0ac4)
-    (property "Reference" "Q2" (at 99.06 91.44 0)
+    (property "Reference" "Q4" (at 99.06 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HSBA15810C" (at 99.06 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 99.568 87.884 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 99.568 87.884 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/113566.html" (at 79.756 84.836 0)
@@ -2045,7 +2082,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "Q2") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -2054,7 +2091,7 @@
   (symbol (lib_id "power:GND") (at 151.13 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20724baf-7b60-44eb-8bc9-0b3fbfbd1848)
-    (property "Reference" "#PWR066" (at 151.13 113.03 0)
+    (property "Reference" "#PWR067" (at 151.13 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 151.13 111.506 0)
@@ -2070,7 +2107,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -2079,7 +2116,7 @@
   (symbol (lib_id "Device:R") (at 142.24 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 211e9a1e-024f-452c-a413-ca144441fd28)
-    (property "Reference" "R33" (at 142.24 60.96 90)
+    (property "Reference" "R27" (at 142.24 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 142.24 63.5 90)
@@ -2096,7 +2133,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R33") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -2128,36 +2165,10 @@
     )
   )
 
-  (symbol (lib_id "Device:NetTie_2") (at 229.87 110.49 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 255c33de-c633-468a-bad2-ff5553168ced)
-    (property "Reference" "NT8" (at 231.648 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "NetTie_2" (at 231.14 111.76 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Footprint" "" (at 229.87 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 229.87 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 088de666-310d-4a2f-a6f5-8cf293797c81))
-    (pin "1" (uuid 33fea9c4-af71-4831-8e94-206b2c38d288))
-    (instances
-      (project "DF_ESC_rev01_1"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT8") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:R") (at 151.13 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2c965b46-a5ea-48df-b2cd-7653839d4364)
-    (property "Reference" "R36" (at 153.67 100.33 0)
+    (property "Reference" "R33" (at 153.67 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "39k" (at 153.67 102.87 0)
@@ -2174,7 +2185,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R36") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -2183,7 +2194,7 @@
   (symbol (lib_id "power:GND") (at 165.1 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fbfcd92-4bce-45ef-ac2c-60d967e22838)
-    (property "Reference" "#PWR068" (at 165.1 160.02 0)
+    (property "Reference" "#PWR071" (at 165.1 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 165.1 158.496 0)
@@ -2199,7 +2210,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -2208,7 +2219,7 @@
   (symbol (lib_id "Device:R") (at 72.39 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fc613f4-cef9-4d69-8f9b-37f516f67361)
-    (property "Reference" "R28" (at 72.39 111.76 90)
+    (property "Reference" "R35" (at 72.39 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 72.39 114.3 90)
@@ -2225,7 +2236,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R28") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -2376,7 +2387,7 @@
   (symbol (lib_id "power:+VDC") (at 95.25 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32a95877-d8b0-4e97-a23b-fc73b724b393)
-    (property "Reference" "#PWR064" (at 95.25 52.07 0)
+    (property "Reference" "#PWR063" (at 95.25 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 95.25 41.91 0)
@@ -2392,7 +2403,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -2401,7 +2412,7 @@
   (symbol (lib_id "Device:R") (at 72.39 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 419d0bce-7dbb-49de-aaa7-8aac78c80a95)
-    (property "Reference" "R26" (at 72.39 86.36 90)
+    (property "Reference" "R29" (at 72.39 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 72.39 88.9 90)
@@ -2418,7 +2429,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R26") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2427,13 +2438,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:HSBA15810C") (at 229.87 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42feb41c-f812-48bc-969b-a3a8e9293eba)
-    (property "Reference" "Q5" (at 233.68 66.04 0)
+    (property "Reference" "Q3" (at 233.68 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HSBA15810C" (at 233.68 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 234.188 62.484 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 234.188 62.484 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/113566.html" (at 214.376 59.436 0)
@@ -2454,7 +2465,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "Q5") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2463,7 +2474,7 @@
   (symbol (lib_id "Device:R") (at 95.25 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ba0e8e5-f1b0-4125-8878-58f67fb06476)
-    (property "Reference" "R31" (at 97.79 127 0)
+    (property "Reference" "R37" (at 97.79 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R001" (at 97.79 129.54 0)
@@ -2480,7 +2491,33 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R31") (unit 1)
+          (reference "R37") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DF_ESC_Symbol_Library_TNP:Net_Tie_PWR") (at 95.25 144.78 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4c17be91-dc81-4d56-b2f8-a74e6200a452)
+    (property "Reference" "NT7" (at 96.52 144.78 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Net_Tie_PWR" (at 84.836 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm" (at 87.376 144.526 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 92.964 145.288 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1b8882b8-27a5-415f-9796-79a41772ebe3))
+    (pin "2" (uuid 36a04bdc-59d4-4303-9856-527ffd9fc90a))
+    (instances
+      (project "DF_ESC_rev01_1"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+          (reference "NT7") (unit 1)
         )
       )
     )
@@ -2489,13 +2526,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 213.36 82.55 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58767151-3b75-4a49-9764-26e7ac76815a)
-    (property "Reference" "NT7" (at 213.36 77.978 0)
+    (property "Reference" "NT3" (at 213.36 77.978 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 213.36 80.518 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 213.36 82.55 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 213.36 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 213.36 82.55 0)
@@ -2506,33 +2543,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:NetTie_2") (at 95.25 109.22 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 594eaf14-5bde-4899-bc33-3437e92fa6b4)
-    (property "Reference" "NT2" (at 96.012 109.22 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "NetTie_2" (at 96.52 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Footprint" "" (at 95.25 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid aace8f75-70b9-45db-87c7-8d144af9f54b))
-    (pin "1" (uuid ab39979a-4e09-473e-ae18-bef03d7d705d))
-    (instances
-      (project "DF_ESC_rev01_1"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT2") (unit 1)
+          (reference "NT3") (unit 1)
         )
       )
     )
@@ -2541,7 +2552,7 @@
   (symbol (lib_id "Device:R") (at 143.51 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f1318c3-62ac-4712-b66f-16c8cd649047)
-    (property "Reference" "R34" (at 143.51 111.76 90)
+    (property "Reference" "R36" (at 143.51 111.76 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 143.51 114.3 90)
@@ -2558,7 +2569,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R34") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -2567,7 +2578,7 @@
   (symbol (lib_id "Device:R") (at 207.01 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67589a7b-d671-4481-a66b-aec44e53243c)
-    (property "Reference" "R38" (at 207.01 87.63 90)
+    (property "Reference" "R31" (at 207.01 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 207.01 90.17 90)
@@ -2584,7 +2595,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R38") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2599,7 +2610,7 @@
     (property "Value" "HSBA15810C" (at 99.06 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 99.568 62.484 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 99.568 62.484 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/113566.html" (at 79.756 59.436 0)
@@ -2629,7 +2640,7 @@
   (symbol (lib_id "Device:R") (at 81.28 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 785560b5-03f4-4d7b-9f00-02e61c62c789)
-    (property "Reference" "R30" (at 83.82 100.33 0)
+    (property "Reference" "R32" (at 83.82 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "39k" (at 83.82 102.87 0)
@@ -2646,7 +2657,33 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R30") (unit 1)
+          (reference "R32") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DF_ESC_Symbol_Library_TNP:Net_Tie_PWR") (at 165.1 144.78 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 78681a27-a7be-439e-bd9e-b8f3207d0cbb)
+    (property "Reference" "NT8" (at 166.37 144.78 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Net_Tie_PWR" (at 154.686 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm" (at 157.226 144.526 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 162.814 145.288 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 020c2e0d-233d-4772-8c35-78655e3fa429))
+    (pin "2" (uuid ce6a3cda-6540-4e8e-be55-ccc21ff848ea))
+    (instances
+      (project "DF_ESC_rev01_1"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+          (reference "NT8") (unit 1)
         )
       )
     )
@@ -2655,7 +2692,7 @@
   (symbol (lib_id "power:GND") (at 229.87 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f188b99-0375-4092-856c-f084772944f1)
-    (property "Reference" "#PWR071" (at 229.87 128.27 0)
+    (property "Reference" "#PWR069" (at 229.87 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.87 126.746 0)
@@ -2671,7 +2708,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -2680,7 +2717,7 @@
   (symbol (lib_id "Device:R") (at 215.9 101.6 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87acd9fc-9e28-42d6-b459-23f3b7b4de98)
-    (property "Reference" "R40" (at 218.44 100.33 0)
+    (property "Reference" "R34" (at 218.44 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "39k" (at 218.44 102.87 0)
@@ -2697,7 +2734,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R40") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -2706,7 +2743,7 @@
   (symbol (lib_id "power:GND") (at 95.25 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 971b8665-dca2-4d20-b45d-6568ba9a2400)
-    (property "Reference" "#PWR065" (at 95.25 160.02 0)
+    (property "Reference" "#PWR070" (at 95.25 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 158.496 0)
@@ -2722,7 +2759,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -2731,13 +2768,13 @@
   (symbol (lib_id "DF_ESC_Symbol_Library:HSBA15810C") (at 165.1 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b258987-07f9-48cd-ae8c-5fd6458071a2)
-    (property "Reference" "Q4" (at 168.91 91.44 0)
+    (property "Reference" "Q5" (at 168.91 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "HSBA15810C" (at 168.91 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 169.418 87.884 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 169.418 87.884 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/113566.html" (at 149.606 84.836 0)
@@ -2758,7 +2795,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -2767,7 +2804,7 @@
   (symbol (lib_id "Device:R") (at 73.66 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9cfd09e7-1c35-4af2-87d3-03d2bd605608)
-    (property "Reference" "R29" (at 73.66 130.81 90)
+    (property "Reference" "R39" (at 73.66 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 73.66 133.35 90)
@@ -2784,7 +2821,59 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R29") (unit 1)
+          (reference "R39") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DF_ESC_Symbol_Library_TNP:Net_Tie_PWR") (at 95.25 109.22 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a2d56a49-da7d-4e30-b6c7-2c46ec951918)
+    (property "Reference" "NT4" (at 96.52 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Net_Tie_PWR" (at 84.836 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm" (at 87.376 108.966 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 92.964 109.728 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c6a7018a-5209-45e5-ad33-ed83e2a70b51))
+    (pin "2" (uuid 6b5784b7-5524-4be2-a51b-d4915dcb0cbc))
+    (instances
+      (project "DF_ESC_rev01_1"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+          (reference "NT4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DF_ESC_Symbol_Library_TNP:Net_Tie_PWR") (at 229.87 110.49 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a8ebcf01-6c62-4cbf-bb53-7bb718b0553a)
+    (property "Reference" "NT6" (at 231.14 110.49 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Net_Tie_PWR" (at 219.456 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm" (at 221.996 110.236 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 227.584 110.998 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0995b3eb-c3eb-48d0-bbb1-f9d14e778981))
+    (pin "2" (uuid e202caf8-f559-4f72-9c77-6646366ba421))
+    (instances
+      (project "DF_ESC_rev01_1"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+          (reference "NT6") (unit 1)
         )
       )
     )
@@ -2793,7 +2882,7 @@
   (symbol (lib_id "Device:R") (at 207.01 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a93410b4-595d-4c32-bd74-2be710751f76)
-    (property "Reference" "R39" (at 207.01 60.96 90)
+    (property "Reference" "R28" (at 207.01 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 207.01 63.5 90)
@@ -2810,7 +2899,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R39") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2819,7 +2908,7 @@
   (symbol (lib_id "power:GND") (at 215.9 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0bbb98e-7780-4fae-87dc-61ee2405e937)
-    (property "Reference" "#PWR069" (at 215.9 114.3 0)
+    (property "Reference" "#PWR068" (at 215.9 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 215.9 112.776 0)
@@ -2835,7 +2924,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -2844,7 +2933,7 @@
   (symbol (lib_id "Device:R") (at 165.1 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3151352-8fd8-4d3c-b145-47300cb01397)
-    (property "Reference" "R37" (at 167.64 127 0)
+    (property "Reference" "R38" (at 167.64 127 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R001" (at 167.64 129.54 0)
@@ -2861,7 +2950,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R37") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -2870,7 +2959,7 @@
   (symbol (lib_id "Device:R") (at 72.39 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3860cca-172c-4bf4-8f7d-c098fb63d446)
-    (property "Reference" "R27" (at 72.39 60.96 90)
+    (property "Reference" "R26" (at 72.39 60.96 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 72.39 63.5 90)
@@ -2887,85 +2976,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:NetTie_2") (at 95.25 144.78 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid bb314c8d-ffa7-4000-ad28-256c77dceb45)
-    (property "Reference" "NT3" (at 96.012 144.78 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "~" (at 96.52 146.05 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 95.25 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 95.25 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 86db86e5-0e81-4723-9057-63b17e52495e))
-    (pin "1" (uuid 14b97259-d1d6-44e2-9db6-fccb6c590802))
-    (instances
-      (project "DF_ESC_rev01_1"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:NetTie_2") (at 165.1 109.22 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid be92f3cb-65a3-4059-818b-0cf690896c3a)
-    (property "Reference" "NT5" (at 166.878 109.22 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "NetTie_2" (at 166.37 110.49 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-    (property "Footprint" "" (at 165.1 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 109.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid af378387-f92e-4614-b20a-764271d55858))
-    (pin "1" (uuid e7c4167b-a279-49e7-8d65-730f345c7114))
-    (instances
-      (project "DF_ESC_rev01_1"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:NetTie_2") (at 165.1 144.78 90) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c170e647-be13-4475-9ba1-2aaaa26c4637)
-    (property "Reference" "NT6" (at 166.878 144.78 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "~" (at 166.37 146.05 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "" (at 165.1 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 144.78 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 9e49bbd2-8c6c-4f66-b3b4-14be2dbf2377))
-    (pin "1" (uuid 0639b00f-7c27-4521-97ad-e405b9f6ccdf))
-    (instances
-      (project "DF_ESC_rev01_1"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT6") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -2974,7 +2985,7 @@
   (symbol (lib_id "power:+VDC") (at 165.1 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c674fc0a-cd91-4337-aebb-0b93e8467664)
-    (property "Reference" "#PWR067" (at 165.1 52.07 0)
+    (property "Reference" "#PWR064" (at 165.1 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 165.1 41.91 0)
@@ -2990,7 +3001,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -3005,7 +3016,7 @@
     (property "Value" "NetTie_2" (at 78.74 79.502 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 78.74 81.28 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 78.74 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 78.74 81.28 0)
@@ -3025,7 +3036,7 @@
   (symbol (lib_id "Device:R") (at 144.78 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd32c1fd-df49-4760-b83c-cf78007ecbdb)
-    (property "Reference" "R35" (at 144.78 130.81 90)
+    (property "Reference" "R40" (at 144.78 130.81 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 144.78 133.35 90)
@@ -3042,7 +3053,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R35") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -3077,7 +3088,7 @@
   (symbol (lib_id "Device:R") (at 142.24 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e32bc1d2-282f-4feb-bd79-f7553ff2896a)
-    (property "Reference" "R32" (at 142.24 86.36 90)
+    (property "Reference" "R30" (at 142.24 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "4R7" (at 142.24 88.9 90)
@@ -3094,7 +3105,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "R32") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -3103,7 +3114,7 @@
   (symbol (lib_id "power:GND") (at 81.28 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e60c66ed-4ad3-44ff-a324-51b6aace4f73)
-    (property "Reference" "#PWR063" (at 81.28 113.03 0)
+    (property "Reference" "#PWR066" (at 81.28 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 111.506 0)
@@ -3119,7 +3130,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -3199,7 +3210,7 @@
   (symbol (lib_id "power:+VDC") (at 229.87 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eeca2f14-97e0-4508-bcef-34c0a39c8e75)
-    (property "Reference" "#PWR070" (at 229.87 52.07 0)
+    (property "Reference" "#PWR065" (at 229.87 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 229.87 41.91 0)
@@ -3215,7 +3226,33 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR065") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "DF_ESC_Symbol_Library_TNP:Net_Tie_PWR") (at 165.1 109.22 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f1c8225c-faaa-419d-b6f1-996553173161)
+    (property "Reference" "NT5" (at 166.37 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "Net_Tie_PWR" (at 154.686 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm" (at 157.226 108.966 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 162.814 109.728 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 40273e16-2ce1-4e2d-8e99-fff60b8a69ea))
+    (pin "2" (uuid 2947253e-4de1-4930-b49b-7ae807da4112))
+    (instances
+      (project "DF_ESC_rev01_1"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+          (reference "NT5") (unit 1)
         )
       )
     )
@@ -3224,13 +3261,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 148.59 81.28 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f644a0c4-8a72-4f6c-a340-c37d7850589f)
-    (property "Reference" "NT4" (at 148.59 75.946 0)
+    (property "Reference" "NT2" (at 148.59 75.946 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NetTie_2" (at 148.59 78.486 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 148.59 81.28 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 148.59 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 148.59 81.28 0)
@@ -3241,7 +3278,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-          (reference "NT4") (unit 1)
+          (reference "NT2") (unit 1)
         )
       )
     )
@@ -3256,7 +3293,7 @@
     (property "Value" "HSBA15810C" (at 233.68 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 234.188 89.154 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL" (at 234.188 89.154 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/113566.html" (at 214.376 86.106 0)

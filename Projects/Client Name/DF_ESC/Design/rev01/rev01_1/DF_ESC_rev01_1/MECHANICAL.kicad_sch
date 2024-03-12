@@ -416,7 +416,7 @@
   (symbol (lib_id "DF_ESC_Symbol_Library_Casa:DF_LOGO") (at 30.226 54.61 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 00b7104b-1442-4598-b351-99e98b6f3430)
-    (property "Reference" "LOGO1" (at 25.908 51.308 0)
+    (property "Reference" "LOGO2" (at 25.908 51.308 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DF_LOGO" (at 25.908 53.848 0)
@@ -431,7 +431,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "LOGO1") (unit 1)
+          (reference "LOGO2") (unit 1)
         )
       )
     )
@@ -488,7 +488,7 @@
   (symbol (lib_id "Device:R") (at 81.28 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 15b0b8de-aa93-4937-8533-7382694ffe95)
-    (property "Reference" "R62" (at 83.312 137.16 0)
+    (property "Reference" "R60" (at 83.312 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 83.312 139.7 0)
@@ -505,7 +505,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "R62") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -539,7 +539,7 @@
   (symbol (lib_id "Device:R") (at 20.32 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4201945b-8534-4f03-be18-2202049d1d53)
-    (property "Reference" "R60" (at 22.352 138.43 0)
+    (property "Reference" "R61" (at 22.352 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 22.352 140.97 0)
@@ -556,7 +556,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "R60") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -565,7 +565,7 @@
   (symbol (lib_id "Device:R") (at 21.59 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 576386ec-4aab-46dd-a20b-9d55e2704604)
-    (property "Reference" "R61" (at 23.622 180.34 0)
+    (property "Reference" "R63" (at 23.622 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 23.622 182.88 0)
@@ -582,7 +582,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "R61") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
     )
@@ -639,7 +639,7 @@
   (symbol (lib_id "DF_ESC_Symbol_Library_Casa:DF_LOGO_NO_SLK") (at 52.578 53.594 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid 7a84a447-25dd-4cc6-98ec-3c7f68819cdd)
-    (property "Reference" "LOGO2" (at 44.196 51.308 0)
+    (property "Reference" "LOGO1" (at 44.196 51.308 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DF_LOGO_NO_SLK" (at 44.196 53.848 0)
@@ -654,7 +654,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "LOGO2") (unit 1)
+          (reference "LOGO1") (unit 1)
         )
       )
     )
@@ -669,7 +669,7 @@
     (property "Value" "DF_QR_CODE" (at 67.056 53.848 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:DF_QR_CODE" (at 73.152 64.008 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:DF_QR_CODE" (at 73.152 64.008 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 73.152 53.848 0)
@@ -687,7 +687,7 @@
   (symbol (lib_id "power:GND") (at 81.28 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid afc7531c-0394-4093-b2e6-b2a655d73c6e)
-    (property "Reference" "#PWR0102" (at 81.28 151.13 0)
+    (property "Reference" "#PWR0101" (at 81.28 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 150.114 0)
@@ -703,7 +703,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -737,7 +737,7 @@
   (symbol (lib_id "Device:R") (at 83.82 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b858dcef-69e2-47f6-bb03-c21e4623f68c)
-    (property "Reference" "R63" (at 85.852 179.07 0)
+    (property "Reference" "R62" (at 85.852 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0R" (at 85.852 181.61 0)
@@ -754,7 +754,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "R63") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -763,7 +763,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 20.32 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d42ebc56-b843-4b8b-b402-6a4115d2c2b1)
-    (property "Reference" "H1" (at 23.876 128.27 0)
+    (property "Reference" "H2" (at 23.876 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 23.876 130.81 0)
@@ -779,7 +779,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "H1") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -788,7 +788,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 81.28 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid de0fc26f-e29f-4fc2-9b35-7c08e07cf792)
-    (property "Reference" "H3" (at 84.836 127 0)
+    (property "Reference" "H1" (at 84.836 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 84.836 129.54 0)
@@ -804,7 +804,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "H3") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -813,7 +813,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 83.82 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e2eaebfd-be50-4422-b5a5-0937e2bd3239)
-    (property "Reference" "H4" (at 87.376 168.91 0)
+    (property "Reference" "H3" (at 87.376 168.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 87.376 171.45 0)
@@ -829,7 +829,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "H4") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -838,7 +838,7 @@
   (symbol (lib_id "power:GND") (at 21.59 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f06ea755-97e5-418a-85ff-1261b2d69103)
-    (property "Reference" "#PWR0101" (at 21.59 193.04 0)
+    (property "Reference" "#PWR0102" (at 21.59 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 21.59 192.024 0)
@@ -854,7 +854,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -863,7 +863,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 21.59 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fb7182d5-b573-4898-9a8c-b64cab1f44d3)
-    (property "Reference" "H2" (at 25.146 170.18 0)
+    (property "Reference" "H4" (at 25.146 170.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 25.146 172.72 0)
@@ -879,7 +879,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/9fe517ea-e439-46a0-9c9c-83eb743bbdc0"
-          (reference "H2") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )

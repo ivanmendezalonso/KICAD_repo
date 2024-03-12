@@ -1066,7 +1066,7 @@
   (symbol (lib_id "power:GND") (at 190.5 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21c04610-42f8-4c28-a122-62b648556dd8)
-    (property "Reference" "#PWR07" (at 190.5 114.3 0)
+    (property "Reference" "#PWR05" (at 190.5 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 190.5 113.284 0)
@@ -1082,7 +1082,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1091,7 +1091,7 @@
   (symbol (lib_id "power:GND") (at 132.08 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 239d7950-79c8-4f1c-82cb-b7b47dfef560)
-    (property "Reference" "#PWR04" (at 132.08 167.64 0)
+    (property "Reference" "#PWR09" (at 132.08 167.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 166.624 0)
@@ -1107,7 +1107,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1116,7 +1116,7 @@
   (symbol (lib_id "Device:C") (at 198.12 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 28f569ac-53e0-4db9-81b7-08083345a97d)
-    (property "Reference" "C4" (at 201.168 97.79 0)
+    (property "Reference" "C3" (at 201.168 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 201.168 100.33 0)
@@ -1133,7 +1133,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "C4") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1148,7 +1148,7 @@
     (property "Value" "LKMI2501K821MF" (at 111.76 102.616 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 135.636 79.502 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 135.636 79.502 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/48887.html" (at 111.76 76.962 0)
@@ -1180,7 +1180,7 @@
     (property "Value" "XH-2PWBPZ" (at 105.41 152.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "footprint:CONN-SMD_XH-2PWBPZ" (at 110.49 140.97 0)
+    (property "Footprint" "conector_XH2PWBPZ:CONN-SMD_XH-2PWBPZ" (at 110.49 140.97 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/2791035.html" (at 112.776 151.257 0)
@@ -1205,7 +1205,7 @@
   (symbol (lib_id "Device:R") (at 128.27 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37ea5b4b-b38d-4fe6-be7a-f5806fa17396)
-    (property "Reference" "R1" (at 130.302 138.43 0)
+    (property "Reference" "R4" (at 130.302 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k2" (at 130.302 140.97 0)
@@ -1222,7 +1222,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "R1") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1257,7 +1257,7 @@
   (symbol (lib_id "power:GND") (at 135.89 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d380cbd-5f28-48a8-8dab-baa0d7c72bb8)
-    (property "Reference" "#PWR05" (at 135.89 110.49 0)
+    (property "Reference" "#PWR04" (at 135.89 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 109.474 0)
@@ -1273,7 +1273,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "Device:R") (at 237.49 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b610ec1-7576-4ccb-9d88-6bf0391b38a4)
-    (property "Reference" "R4" (at 239.522 82.55 0)
+    (property "Reference" "R1" (at 239.522 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "39k" (at 239.522 85.09 0)
@@ -1299,7 +1299,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "R4") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1334,7 +1334,7 @@
   (symbol (lib_id "power:GND") (at 237.49 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8234065d-34f6-4449-8a54-b2084ae02016)
-    (property "Reference" "#PWR09" (at 237.49 114.3 0)
+    (property "Reference" "#PWR06" (at 237.49 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 237.49 113.284 0)
@@ -1350,7 +1350,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1365,7 +1365,7 @@
     (property "Value" "LKMI2501K821MF" (at 143.002 97.2185 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 144.526 79.502 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:CAP-TH_BD18.0-P7.50-D1.2-SIDE" (at 144.526 79.502 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://item.szlcsc.com/48887.html" (at 120.65 76.962 0)
@@ -1417,7 +1417,7 @@
   (symbol (lib_id "power:+VDC") (at 237.49 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3eaf75b-a91c-4470-8ff0-f24942825119)
-    (property "Reference" "#PWR08" (at 237.49 68.58 0)
+    (property "Reference" "#PWR02" (at 237.49 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 237.49 58.674 0)
@@ -1433,7 +1433,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1442,7 +1442,7 @@
   (symbol (lib_id "Device:C") (at 143.51 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9cec5ac-4fc9-42a6-b882-f24b3c60208a)
-    (property "Reference" "C3" (at 146.558 135.89 0)
+    (property "Reference" "C4" (at 146.558 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 146.558 138.43 0)
@@ -1459,7 +1459,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1474,7 +1474,7 @@
     (property "Value" "XT60PW-M" (at 63.246 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "DF_ESC_Footprint_Library_Casa:CONN-TH_XT60PW-M" (at 62.23 92.456 0)
+    (property "Footprint" "DF_ESC_Footprint_Library:CONN-TH_XT60PW-M" (at 62.23 92.456 0)
       (effects (font (size 1.27 1.27) italic) hide)
     )
     (property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20180125/C98732_15168617837851301983.pdf" (at 76.962 89.916 0)
@@ -1499,7 +1499,7 @@
   (symbol (lib_id "power:+3V3") (at 128.27 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bcb2c786-b12c-430d-a383-34bec517dfb4)
-    (property "Reference" "#PWR03" (at 128.27 130.81 0)
+    (property "Reference" "#PWR07" (at 128.27 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 128.27 122.174 0)
@@ -1515,7 +1515,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1524,7 +1524,7 @@
   (symbol (lib_id "power:GND") (at 74.93 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c75b08f6-bcd2-4926-827d-222b84b7bdc0)
-    (property "Reference" "#PWR01" (at 74.93 97.79 0)
+    (property "Reference" "#PWR03" (at 74.93 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 96.774 0)
@@ -1540,7 +1540,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1549,7 +1549,7 @@
   (symbol (lib_id "power:GND") (at 143.51 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cce8aea5-3832-416c-9cef-146b98281d21)
-    (property "Reference" "#PWR06" (at 143.51 148.59 0)
+    (property "Reference" "#PWR08" (at 143.51 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 143.51 147.574 0)
@@ -1565,7 +1565,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -1626,7 +1626,7 @@
   (symbol (lib_id "power:+VDC") (at 80.01 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f64e27ec-9bda-4978-abfd-e4a36abc9b22)
-    (property "Reference" "#PWR02" (at 80.01 67.31 0)
+    (property "Reference" "#PWR01" (at 80.01 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VDC" (at 80.01 57.404 0)
@@ -1642,7 +1642,7 @@
     (instances
       (project "DF_ESC_rev01_1"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/45b6accf-3fc1-445c-ae1c-ee972cc3cd8b"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
