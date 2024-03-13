@@ -10714,7 +10714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprint:HTSSOP-56_L14.0-W6.1-P0.50-LS8.1-BL-EP"
+		(property "Footprint" "DF_ESC_Footprint_Library:HTSSOP-56_L14.0-W6.1-P0.50-LS8.1-BL-EP"
 			(at 130.81 66.04 0)
 			(effects
 				(font

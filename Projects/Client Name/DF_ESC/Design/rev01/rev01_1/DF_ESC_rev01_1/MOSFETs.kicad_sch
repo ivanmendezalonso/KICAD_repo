@@ -744,6 +744,107 @@
 				)
 			)
 		)
+		(symbol "DF_ESC_Symbol_Library:Net_Tie_PWR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Net_Tie_PWR"
+				(at 0 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm"
+				(at 0.254 7.874 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -0.508 2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net Tie 6mm X 2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Net_Tie_PWR_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Net_Tie_PWR_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -4669,77 +4770,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 229.87 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "255c33de-c633-468a-bad2-ff5553168ced")
-		(property "Reference" "NT8"
-			(at 231.648 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 231.14 111.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 229.87 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 229.87 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 229.87 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "088de666-310d-4a2f-a6f5-8cf293797c81")
-		)
-		(pin "1"
-			(uuid "33fea9c4-af71-4831-8e94-206b2c38d288")
-		)
-		(instances
-			(project "DF_ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-					(reference "NT8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 151.13 101.6 180)
 		(unit 1)
@@ -5428,6 +5458,76 @@
 		)
 	)
 	(symbol
+		(lib_id "DF_ESC_Symbol_Library:Net_Tie_PWR")
+		(at 165.1 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39768003-c906-4467-96d1-add529b4879a")
+		(property "Reference" "NT5"
+			(at 166.37 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Net_Tie_PWR"
+			(at 154.686 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm"
+			(at 157.226 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.814 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net Tie 6mm X 2mm"
+			(at 165.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "521ca583-e22c-4806-8c39-d167987157f1")
+		)
+		(pin "1"
+			(uuid "35b4d430-32e7-4acf-bd6d-9dcc57dc012e")
+		)
+		(instances
+			(project "DF_ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 72.39 92.71 90)
 		(unit 1)
@@ -5693,7 +5793,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 213.36 82.55 0)
 			(effects
 				(font
@@ -5730,77 +5830,6 @@
 			(project "DF_ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
 					(reference "NT7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 95.25 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "594eaf14-5bde-4899-bc33-3437e92fa6b4")
-		(property "Reference" "NT2"
-			(at 96.012 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 96.52 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "aace8f75-70b9-45db-87c7-8d144af9f54b")
-		)
-		(pin "1"
-			(uuid "ab39979a-4e09-473e-ae18-bef03d7d705d")
-		)
-		(instances
-			(project "DF_ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -5937,6 +5966,146 @@
 			(project "DF_ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
 					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DF_ESC_Symbol_Library:Net_Tie_PWR")
+		(at 95.25 144.78 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6daf0576-e005-4dbb-894b-7c3657907a38")
+		(property "Reference" "NT8"
+			(at 96.52 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Net_Tie_PWR"
+			(at 84.836 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm"
+			(at 87.376 144.526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.964 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net Tie 6mm X 2mm"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4757ba8b-0f5d-493f-bd78-96efe42c3389")
+		)
+		(pin "1"
+			(uuid "2bbcbcea-f6dc-4892-9417-c30a88f6a47c")
+		)
+		(instances
+			(project "DF_ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+					(reference "NT8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DF_ESC_Symbol_Library:Net_Tie_PWR")
+		(at 95.25 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fd41f0f-c761-4e54-aeb9-69a2c3aee38a")
+		(property "Reference" "NT6"
+			(at 96.52 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Net_Tie_PWR"
+			(at 84.836 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm"
+			(at 87.376 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.964 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net Tie 6mm X 2mm"
+			(at 95.25 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0960de9-904d-46a7-9dab-ce35fb52e81f")
+		)
+		(pin "1"
+			(uuid "0a882ffa-ae42-43a2-805c-755b42196e07")
+		)
+		(instances
+			(project "DF_ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+					(reference "NT6")
 					(unit 1)
 				)
 			)
@@ -6759,217 +6928,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 95.25 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb314c8d-ffa7-4000-ad28-256c77dceb45")
-		(property "Reference" "NT3"
-			(at 96.012 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 96.52 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "86db86e5-0e81-4723-9057-63b17e52495e")
-		)
-		(pin "1"
-			(uuid "14b97259-d1d6-44e2-9db6-fccb6c590802")
-		)
-		(instances
-			(project "DF_ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-					(reference "NT3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 165.1 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be92f3cb-65a3-4059-818b-0cf690896c3a")
-		(property "Reference" "NT5"
-			(at 166.878 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "NetTie_2"
-			(at 166.37 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "af378387-f92e-4614-b20a-764271d55858")
-		)
-		(pin "1"
-			(uuid "e7c4167b-a279-49e7-8d65-730f345c7114")
-		)
-		(instances
-			(project "DF_ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-					(reference "NT5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_2")
-		(at 165.1 144.78 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c170e647-be13-4475-9ba1-2aaaa26c4637")
-		(property "Reference" "NT6"
-			(at 166.878 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 166.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e49bbd2-8c6c-4f66-b3b4-14be2dbf2377")
-		)
-		(pin "1"
-			(uuid "0639b00f-7c27-4521-97ad-e405b9f6ccdf")
-		)
-		(instances
-			(project "DF_ESC_rev01_1"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
-					(reference "NT6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+VDC")
 		(at 165.1 49.53 0)
 		(unit 1)
@@ -7061,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -7172,6 +7130,76 @@
 		)
 	)
 	(symbol
+		(lib_id "DF_ESC_Symbol_Library:Net_Tie_PWR")
+		(at 165.1 109.22 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5370d2c-3442-4bef-af40-869a2ac4f2c1")
+		(property "Reference" "NT3"
+			(at 166.37 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Net_Tie_PWR"
+			(at 154.686 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm"
+			(at 157.226 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.814 109.728 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net Tie 6mm X 2mm"
+			(at 165.1 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "38e278b2-f87c-44eb-8af7-7eecce6fda1b")
+		)
+		(pin "1"
+			(uuid "23713e01-fa0f-4666-bbfd-231d9579c844")
+		)
+		(instances
+			(project "DF_ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+					(reference "NT3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 63.5 127 0)
 		(unit 1)
@@ -7236,6 +7264,76 @@
 			(project "DF_ESC_rev01_1"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DF_ESC_Symbol_Library:Net_Tie_PWR")
+		(at 229.87 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de4d6a9a-b564-4f22-b62a-e2a1d997a04c")
+		(property "Reference" "NT2"
+			(at 231.14 110.4899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Net_Tie_PWR"
+			(at 219.456 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DF_ESC_Footprint_Library:NetTie_SMD_Pad_3.00mm"
+			(at 221.996 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.584 110.998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net Tie 6mm X 2mm"
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8bebd11-44ef-4143-8936-2f7e2d778a0c")
+		)
+		(pin "1"
+			(uuid "19ff7aa7-8208-4150-8847-a4670e0ad8e0")
+		)
+		(instances
+			(project "DF_ESC_rev01_1"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/55dff34f-5e5e-4a64-9439-c557a4819ba0"
+					(reference "NT2")
 					(unit 1)
 				)
 			)
@@ -7676,7 +7774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
 			(at 148.59 81.28 0)
 			(effects
 				(font
