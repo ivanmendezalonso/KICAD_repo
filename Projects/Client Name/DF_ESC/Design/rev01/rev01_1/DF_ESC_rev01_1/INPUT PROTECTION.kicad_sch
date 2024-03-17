@@ -2889,7 +2889,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:CAP-TH_BD18.0-P7.50-D1.2-SIDE"
+		(property "Footprint" "DF_ESC_Footprint_Library:CAP-TH_BD18.0-P7.50-D1.2-SIDE"
 			(at 135.636 79.502 0)
 			(effects
 				(font
