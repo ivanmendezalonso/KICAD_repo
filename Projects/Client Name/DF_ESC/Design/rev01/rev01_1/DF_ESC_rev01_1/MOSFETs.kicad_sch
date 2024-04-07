@@ -5725,7 +5725,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "DF_ESC_Footprint_Library:RES-SMD_L7.0-W6.7"
 			(at 97.028 128.27 90)
 			(effects
 				(font
@@ -6817,7 +6817,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "DF_ESC_Footprint_Library:RES-SMD_L7.0-W6.7"
 			(at 166.878 128.27 90)
 			(effects
 				(font
