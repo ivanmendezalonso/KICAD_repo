@@ -238,25 +238,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at -10.16 19.05 0)
+			(property "Reference" "J8"
+				(at 0 22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "USB_C_Receptacle_USB2.0"
-				(at 19.05 19.05 0)
+				(at 0 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Footprint" "DF_ESC_Footprint_Library:USB-C_SMD-TYPE-C-31-M-12"
+			(property "Footprint" "DF_ESC_Footprint_Library_Casa:USB-C_SMD-TYPE-C-31-M-12"
 				(at 19.05 25.654 0)
 				(effects
 					(font
@@ -274,7 +272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only Type-C Receptacle connector"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -922,7 +920,7 @@
 					)
 				)
 				(pin passive line
-					(at -4.826 -22.86 90)
+					(at -5.08 -22.86 90)
 					(length 5.08)
 					(name "SHIELD"
 						(effects
@@ -1286,18 +1284,6 @@
 		(uuid "175f658d-ac1a-431d-b63c-c808b8bbf406")
 	)
 	(junction
-		(at 57.15 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e61c428-8eea-42a6-b465-f4d56c711575")
-	)
-	(junction
-		(at 64.77 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55333b7e-5c12-4366-821a-d4abecbbbee6")
-	)
-	(junction
 		(at 81.28 91.44)
 		(diameter 0)
 		(color 194 0 0 1)
@@ -1310,17 +1296,29 @@
 		(uuid "64caab6f-8e82-4895-b059-f0a9ab32aafd")
 	)
 	(junction
-		(at 57.15 110.49)
+		(at 55.88 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8811766d-d354-4b2b-af77-21069b6dc262")
+		(uuid "7ab16eda-a44c-49de-8d0c-a786f1daa7bf")
+	)
+	(junction
+		(at 63.5 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81aae02c-42cd-4c84-9bda-3e22c8f87a75")
+	)
+	(junction
+		(at 55.88 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f01be6f0-ab5b-4fdc-acc5-3ce76dd9857d")
 	)
 	(no_connect
-		(at 80.01 100.33)
+		(at 78.74 100.33)
 		(uuid "7e9a85de-0507-491c-8b2a-b70dd18ebb3f")
 	)
 	(no_connect
-		(at 80.01 102.87)
+		(at 78.74 102.87)
 		(uuid "929f5715-dcec-4d5b-b247-5565141bbe9a")
 	)
 	(wire
@@ -1335,7 +1333,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 87.63) (xy 80.01 87.63)
+			(xy 55.88 113.03) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14071e8e-ca28-4e63-944e-19e95422d749")
+	)
+	(wire
+		(pts
+			(xy 81.28 87.63) (xy 78.74 87.63)
 		)
 		(stroke
 			(width 1)
@@ -1346,7 +1354,17 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 81.28 85.09)
+			(xy 55.88 110.49) (xy 58.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1663cad3-846e-434a-be4f-6f09427f3b44")
+	)
+	(wire
+		(pts
+			(xy 78.74 85.09) (xy 81.28 85.09)
 		)
 		(stroke
 			(width 1)
@@ -1367,16 +1385,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 72.39) (xy 96.52 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29599561-6a2c-414b-9fb8-be2e5d8a7923")
-	)
-	(wire
-		(pts
 			(xy 57.15 114.3) (xy 57.15 113.03)
 		)
 		(stroke
@@ -1387,7 +1395,27 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 80.01 92.71)
+			(xy 78.74 72.39) (xy 96.52 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c435196-26fa-4af1-955a-30298d7b89ec")
+	)
+	(wire
+		(pts
+			(xy 63.5 124.46) (xy 57.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30919939-5d2b-4df0-87f5-34ac736210a9")
+	)
+	(wire
+		(pts
+			(xy 81.28 92.71) (xy 78.74 92.71)
 		)
 		(stroke
 			(width 1)
@@ -1415,6 +1443,16 @@
 			(type default)
 		)
 		(uuid "3dea96ad-c730-4f7f-aaaf-0f0f5bbca92c")
+	)
+	(wire
+		(pts
+			(xy 55.88 110.49) (xy 55.88 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f4c5e35-1dc4-4238-aa18-7c803d61c2df")
 	)
 	(wire
 		(pts
@@ -1553,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 110.49) (xy 64.77 124.46)
+			(xy 63.5 110.49) (xy 63.5 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +1612,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 113.03) (xy 57.15 113.03)
+			(xy 49.53 113.03) (xy 55.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1622,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 90.17) (xy 81.28 90.17)
+			(xy 78.74 90.17) (xy 81.28 90.17)
 		)
 		(stroke
 			(width 1)
@@ -1602,16 +1640,6 @@
 			(type default)
 		)
 		(uuid "94d56f41-3b55-45f2-a8c8-547921cc47a7")
-	)
-	(wire
-		(pts
-			(xy 57.15 110.49) (xy 57.15 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "974f15bc-33c3-4a5f-a41a-0d38a6ab7d7a")
 	)
 	(wire
 		(pts
@@ -1657,7 +1685,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 110.49 80.01)
+			(xy 78.74 80.01) (xy 110.49 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1678,17 +1706,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 110.49) (xy 59.944 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7b4a096-0f9d-4d1d-a210-59a5254ca9d3")
-	)
-	(wire
-		(pts
-			(xy 64.77 124.46) (xy 57.15 124.46)
+			(xy 64.77 124.46) (xy 63.5 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1771,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 77.47) (xy 121.92 77.47)
+			(xy 78.74 77.47) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2387,7 @@
 	)
 	(symbol
 		(lib_id "DF_ESC_Symbol_Library_Casa:USB_C_Receptacle_USB2.0")
-		(at 64.77 87.63 0)
+		(at 63.5 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2378,7 +2396,7 @@
 		(fields_autoplaced yes)
 		(uuid "219a5946-f3c0-4be6-896c-9e545a5e63d5")
 		(property "Reference" "J8"
-			(at 64.77 64.77 0)
+			(at 63.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2404,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0"
-			(at 64.77 67.31 0)
+			(at 63.5 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2412,7 @@
 			)
 		)
 		(property "Footprint" "DF_ESC_Footprint_Library_Casa:USB-C_SMD-TYPE-C-31-M-12"
-			(at 83.82 61.976 0)
+			(at 82.55 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2421,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 87.884 64.516 0)
+			(at 86.614 64.516 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2430,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 87.63 0)
+			(at 63.5 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2527,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:XSON-7_L2.2-W1.2-P0.50-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:XSON-7_L2.2-W1.2-P0.50-BL"
 			(at 186.69 109.22 0)
 			(effects
 				(font

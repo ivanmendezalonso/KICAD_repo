@@ -3022,7 +3022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:CONN-SMD_S4B-XH-SM4-TB-LF-SN"
+		(property "Footprint" "DF_ESC_Footprint_Library:CONN-SMD_S4B-XH-SM4-TB-LF-SN"
 			(at 52.07 109.728 0)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL"
+		(property "Footprint" "DF_ESC_Footprint_Library:FILTER-SMD_4P-L9.2-W6.0-P2.54-TL"
 			(at 200.152 86.36 0)
 			(effects
 				(font

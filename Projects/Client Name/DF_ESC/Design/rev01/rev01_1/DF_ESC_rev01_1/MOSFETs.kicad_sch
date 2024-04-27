@@ -4389,7 +4389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 169.418 62.484 0)
 			(effects
 				(font
@@ -4491,7 +4491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 99.568 87.884 0)
 			(effects
 				(font
@@ -5623,7 +5623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 234.188 62.484 0)
 			(effects
 				(font
@@ -6139,7 +6139,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 99.568 62.484 0)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 169.418 87.884 0)
 			(effects
 				(font
@@ -7844,7 +7844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
+		(property "Footprint" "DF_ESC_Footprint_Library:PQFN-8_L6.0-W5.0-P1.27-LS6.0-BL"
 			(at 234.188 89.154 0)
 			(effects
 				(font

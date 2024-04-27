@@ -11093,7 +11093,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:IND-SMD_L7.8-W7.8_SDR0805"
+		(property "Footprint" "DF_ESC_Footprint_Library:IND-SMD_L7.8-W7.8_SDR0805"
 			(at 199.39 86.36 0)
 			(effects
 				(font

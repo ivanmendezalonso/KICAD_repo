@@ -10698,7 +10698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:CONN-SMD_S6B-XH-SM4-TB-LF-SN"
+		(property "Footprint" "DF_ESC_Footprint_Library:CONN-SMD_S6B-XH-SM4-TB-LF-SN"
 			(at 265.43 113.03 0)
 			(effects
 				(font
@@ -10932,7 +10932,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:CRYSTAL-SMD_L5.0-W3.2"
+		(property "Footprint" "DF_ESC_Footprint_Library:CRYSTAL-SMD_L5.0-W3.2"
 			(at 93.98 76.2 0)
 			(effects
 				(font
@@ -12280,7 +12280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:CONN-SMD_XH-3AWB"
+		(property "Footprint" "DF_ESC_Footprint_Library:CONN-SMD_XH-3AWB"
 			(at 270.51 142.24 0)
 			(effects
 				(font
@@ -13210,7 +13210,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DF_ESC_Footprint_Library_Casa:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4"
+		(property "Footprint" "DF_ESC_Footprint_Library:SW-SMD_4P-L5.2-W5.2-P3.70-LS6.4"
 			(at 121.92 48.26 0)
 			(effects
 				(font
