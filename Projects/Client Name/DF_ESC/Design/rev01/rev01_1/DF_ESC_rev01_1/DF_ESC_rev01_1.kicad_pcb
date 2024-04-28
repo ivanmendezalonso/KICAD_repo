@@ -48490,10 +48490,46 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "HALL SENSOR"
+		(at 214.52 152.22 0)
+		(layer "F.SilkS")
+		(uuid "20b748dc-f272-48a5-a310-91e75296ff5c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TX_SDA_NSS"
 		(at 196.32 151.22 0)
 		(layer "F.SilkS")
 		(uuid "273406b1-a85a-4a84-a682-c0a0dbc3d656")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ADC_TEMP"
+		(at 202.42 159.72 0)
+		(layer "F.SilkS")
+		(uuid "2cd7e5fb-d944-4300-80d3-a86c7701eed1")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GREEN"
+		(at 232.42 162.02 0)
+		(layer "F.SilkS")
+		(uuid "420468fd-a715-417a-8096-5b22098f2fa7")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -48526,6 +48562,30 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "GND\n"
+		(at 261.52 115.82 0)
+		(layer "F.SilkS")
+		(uuid "4d5d728d-d4ef-4b9c-8fad-6b881e887885")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 210.12 160.32 0)
+		(layer "F.SilkS")
+		(uuid "5484bc3b-3f9a-4924-9783-4b348c7f895d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "CAN_N"
 		(at 191.62 109.62 0)
 		(layer "F.SilkS")
@@ -48538,10 +48598,34 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "+5V"
+		(at 226.22 160.22 0)
+		(layer "F.SilkS")
+		(uuid "5b39b974-ba13-4d0f-87ae-752fda1a231d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+3V3_COM"
 		(at 196.42 146.52 0)
 		(layer "F.SilkS")
 		(uuid "5e7e7e52-f08e-47b1-9a7b-11c08e4c92ee")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "H1"
+		(at 219.62 158.72 0)
+		(layer "F.SilkS")
+		(uuid "614615f0-bf65-4a2f-b3c4-0dae8a6bf1b3")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -48562,6 +48646,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "H2"
+		(at 217.12 158.72 0)
+		(layer "F.SilkS")
+		(uuid "6e071d67-ecbb-4750-958c-0d131a6b149d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "NRST"
 		(at 216.32 110.42 0)
 		(layer "F.SilkS")
@@ -48574,10 +48670,46 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "TEMP"
+		(at 222.82 158.72 0)
+		(layer "F.SilkS")
+		(uuid "7a50776c-536d-4861-b184-5892ca2da443")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SCK_ADC_EXT"
 		(at 196.42 149.72 0)
 		(layer "F.SilkS")
 		(uuid "7ab4f977-9a74-44ca-a11e-63087d10232e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+VCC"
+		(at 268.42 115.92 0)
+		(layer "F.SilkS")
+		(uuid "7af838f8-1c6d-4955-a689-5e2aa0ecae19")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RED"
+		(at 241.82 161.92 0)
+		(layer "F.SilkS")
+		(uuid "89fc1357-3781-449a-b26f-cf05e24de90a")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -48622,6 +48754,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "H3"
+		(at 214.72 158.72 0)
+		(layer "F.SilkS")
+		(uuid "a1864bd4-c397-4eac-a449-6d8e9f104fed")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "+5V"
 		(at 196.42 144.92 0)
 		(layer "F.SilkS")
@@ -48642,6 +48786,18 @@
 			(font
 				(size 0.9 0.9)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 195.62 159.72 0)
+		(layer "F.SilkS")
+		(uuid "ba200099-aedb-477d-abfd-055c0e58c1b4")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
@@ -48702,6 +48858,18 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "THERMISTOR"
+		(at 193.494434 164.568184 90)
+		(layer "F.SilkS")
+		(uuid "f03b0421-9d4a-4b68-9085-c31536c62df2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
 			)
 			(justify left bottom)
 		)
