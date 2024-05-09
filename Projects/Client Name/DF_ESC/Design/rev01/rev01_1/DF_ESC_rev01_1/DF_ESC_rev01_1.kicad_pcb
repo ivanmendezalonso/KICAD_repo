@@ -812,10 +812,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/f18bd305-e26b-4826-95c0-b785437d8429")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -916,6 +913,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "cad1d1f7-2177-41ad-a715-b10d82383336")
+		)
+		(fp_text user "C55"
+			(at 1.654762 -0.674495 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "5f3e6a26-d85f-4dca-bd84-160277186c1b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -1486,10 +1496,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/0c0888eb-09f4-4c41-b94a-a202414fb34e")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -1590,6 +1597,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "34d82bea-87b1-48a5-a6e3-da9059aea2de")
+		)
+		(fp_text user "C57"
+			(at 1.669262 -0.748495 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "740ca3e4-06e9-43ed-b2ed-2fd2423f20c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -2211,10 +2231,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/54f04826-9f11-432c-8f6c-cc95da4cd00b")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -2315,6 +2332,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "e93d1f94-686e-473b-890d-31f7fc12394f")
+		)
+		(fp_text user "C59"
+			(at -1.65 0.73 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "2aae742f-762c-4310-bf19-a3b38e334688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -4085,10 +4115,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/86ab100c-6405-4c68-a2fb-302ccb022be6")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -4189,6 +4216,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "2c84c527-241b-4461-97d9-46e574303364")
+		)
+		(fp_text user "C60"
+			(at 1.575762 -0.748495 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "58bff365-de12-42e1-9407-da57ad999def")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -5331,10 +5371,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/138932fe-f685-46a1-bb06-1768136a532b/23626946-c69c-4be9-8eb8-03538445f560")
-		(sheetname "[4] - MCU")
-		(sheetfile "MCU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -5435,6 +5472,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "6f37c533-28fc-4868-b257-97d9937de5b9")
+		)
+		(fp_text user "R7"
+			(at 1.0475 -0.688 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "464bbff7-fff5-4876-b833-501ac5e18ead")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -5542,10 +5592,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/bdfbc483-952f-4ad4-addc-29f3f37cfdc0")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -5646,6 +5693,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "5f07ea41-c85d-4ca8-9043-4b426a22fbd9")
+		)
+		(fp_text user "C53"
+			(at -1.65 0.73 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "cd3a57db-01de-411b-87ca-6039cc73e3ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -6002,10 +6062,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/138932fe-f685-46a1-bb06-1768136a532b/f77fd29b-5ed9-4c22-a1f7-54d533a0df99")
-		(sheetname "[4] - MCU")
-		(sheetfile "MCU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -6106,6 +6163,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "a225a9ab-d8ee-422e-aadc-e55d05debc14")
+		)
+		(fp_text user "C10"
+			(at 1.543262 -0.684 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "995445f8-9045-49f8-9e48-5620299db9c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -6213,10 +6283,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/809ae551-7d4d-45a3-9851-cb6e7c0ca708")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -6317,6 +6384,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "8235a555-6940-4425-b274-c817d6e1eb5f")
+		)
+		(fp_text user "C54"
+			(at 1.617262 -0.750495 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "5cb46844-4281-4c76-8d50-bdfcea47764a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -6424,10 +6504,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/b302bd03-5322-4c54-a4f3-31fe4c05435c")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -6528,6 +6605,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "77728d84-1160-494e-9c5b-d5894b897b6c")
+		)
+		(fp_text user "C58"
+			(at -1.65 0.73 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "bbd3cfbf-c529-42eb-b37a-26318e955567")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -10663,10 +10753,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9fe517ea-e439-46a0-9c9c-83eb743bbdc0/e2eaebfd-be50-4422-b5a5-0937e2bd3239")
-		(sheetname "[10] - MECHANICAL")
-		(sheetfile "MECHANICAL.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -10689,6 +10776,19 @@
 			(fill none)
 			(layer "F.CrtYd")
 			(uuid "024be9ac-d849-49fe-9ce3-756e725f524c")
+		)
+		(fp_text user "H4"
+			(at -1.1 0.6 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "02c0f354-8520-4ccf-a9ff-db5661d90c46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -13130,10 +13230,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/ce247b06-1998-463c-911a-d0adae76b7b1")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -13234,6 +13331,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "a5f9ee8a-14d9-4caf-a055-c284fc409b42")
+		)
+		(fp_text user "R52"
+			(at -1.65 0.73 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "bd598dff-9355-417e-900a-71ebc757a308")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
@@ -13341,10 +13451,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/95e51631-ebe3-46eb-b3e4-cba46e6358af")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -13445,6 +13552,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "2e6786bc-8bcb-4564-bfbd-c6149bbaa9bf")
+		)
+		(fp_text user "R45"
+			(at 1.569262 -0.724495 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "660dde78-6636-4f98-b6d7-0b53abccb1df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -14126,10 +14246,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/9fe517ea-e439-46a0-9c9c-83eb743bbdc0/b858dcef-69e2-47f6-bb03-c21e4623f68c")
-		(sheetname "[10] - MECHANICAL")
-		(sheetfile "MECHANICAL.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -14230,6 +14347,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "0a42bdb6-2776-4aa4-9752-b4fca0234ad6")
+		)
+		(fp_text user "R63"
+			(at 1.554762 -0.7035 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "c31765df-3053-4333-8d11-123c57eb5570")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -14700,10 +14830,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/6a4d0e96-5ee5-418f-b278-b6f5e33dea80")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -14804,6 +14931,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "dd31d72a-7226-4bff-9d3d-63dba6242ede")
+		)
+		(fp_text user "R46"
+			(at -1.65 0.73 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "a5b2b491-1ef0-4ef3-a2fe-cd01cefa5a46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -15144,10 +15284,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/9fe517ea-e439-46a0-9c9c-83eb743bbdc0/15b0b8de-aa93-4937-8533-7382694ffe95")
-		(sheetname "[10] - MECHANICAL")
-		(sheetfile "MECHANICAL.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -15248,6 +15385,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "e2a40473-3ba9-4f70-b8f1-1e4cd0e165eb")
+		)
+		(fp_text user "R62"
+			(at 1.554762 -0.7035 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "051c35cc-1db1-4a13-8b10-fda8dbe2738d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -15777,10 +15927,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/138932fe-f685-46a1-bb06-1768136a532b/9bbe135a-e8d4-4b8f-869a-0fc8072e0c33")
-		(sheetname "[4] - MCU")
-		(sheetfile "MCU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -15881,6 +16028,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "2883180d-e5d6-4c17-97f6-8d90a32ecc44")
+		)
+		(fp_text user "C12"
+			(at -1.574 0.636 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "11511864-f359-40be-a46b-7019c3059022")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -16237,10 +16397,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/138932fe-f685-46a1-bb06-1768136a532b/4dabff19-2ca7-49bb-bc07-28bc4cbdc952")
-		(sheetname "[4] - MCU")
-		(sheetfile "MCU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -16341,6 +16498,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "56649370-8960-4476-a7fe-d1a66097d666")
+		)
+		(fp_text user "C17"
+			(at -1.574 0.612 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "3d7b9539-c8a0-4699-8a1b-910487be4147")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -16448,10 +16618,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/01e7609e-7945-4b7d-9b49-fd470f23e479")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -16552,6 +16719,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "9da53cb5-77d9-4c25-9003-6c5e16704878")
+		)
+		(fp_text user "R51"
+			(at -1.555995 0.7 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "de96a1ff-c2d3-4b84-a2c2-3d842f67e877")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
@@ -21602,10 +21782,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/138932fe-f685-46a1-bb06-1768136a532b/31b0b499-8fa4-4dbb-af9c-8d7305acf605")
-		(sheetname "[4] - MCU")
-		(sheetfile "MCU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -21706,6 +21883,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "1ad50167-c37a-4162-870b-64f181a86bc9")
+		)
+		(fp_text user "C18"
+			(at 1.554762 -0.7035 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "4e2917b4-80d7-4928-b02c-4ee44213f25d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -22849,7 +23039,7 @@
 			(uuid "a06d894a-f6a1-4990-9db3-a5c9ab96a0ff")
 		)
 		(fp_text user "H1"
-			(at 0 0 0)
+			(at -1.1 0.6 0)
 			(unlocked yes)
 			(layer "F.CrtYd")
 			(uuid "5d4375e8-ae6e-4f9d-8942-9297a8c049dc")
@@ -25294,10 +25484,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/6f9fbb25-e5f8-4e4a-9d82-cb2cc049a270")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 -0.51)
@@ -25398,6 +25585,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "b12a8583-2928-4bd4-9781-8d60c83a43fe")
+		)
+		(fp_text user "C56"
+			(at -1.521 0.696995 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "93ffc28f-5cbc-4672-bb02-58e8bb5e6951")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -26080,10 +26280,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9fe517ea-e439-46a0-9c9c-83eb743bbdc0/fb7182d5-b573-4898-9a8c-b64cab1f44d3")
-		(sheetname "[10] - MECHANICAL")
-		(sheetfile "MECHANICAL.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -26106,6 +26303,19 @@
 			(fill none)
 			(layer "F.CrtYd")
 			(uuid "7dd604ec-a176-4890-ad60-6c209a707b62")
+		)
+		(fp_text user "H2"
+			(at -1.2 0.6 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "d0bb1a99-6ce5-4dd5-8a77-421621238942")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -26677,10 +26887,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/9fe517ea-e439-46a0-9c9c-83eb743bbdc0/576386ec-4aab-46dd-a20b-9d55e2704604")
-		(sheetname "[10] - MECHANICAL")
-		(sheetfile "MECHANICAL.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -26781,6 +26988,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "fb2aae6a-f4e8-4a90-a0f0-1aae00ee484a")
+		)
+		(fp_text user "R61"
+			(at 1.504762 -0.6 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "a165f14c-9a12-45c6-a066-751890e4f462")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -27571,10 +27791,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/881c0500-2c16-491c-b6b7-4f94cd6a47e7")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 0.5225)
@@ -27675,6 +27892,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "54cc4f9d-3641-4cfb-9b9b-5a7ea7e9883e")
+		)
+		(fp_text user "R48"
+			(at 1.521 -0.720995 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "e87a2d0e-5bc4-4782-bff1-a6dc1c8ae4fa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
@@ -27783,10 +28013,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/9fe517ea-e439-46a0-9c9c-83eb743bbdc0/de0fc26f-e29f-4fc2-9b35-7c08e07cf792")
-		(sheetname "[10] - MECHANICAL")
-		(sheetfile "MECHANICAL.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -27809,6 +28036,19 @@
 			(fill none)
 			(layer "F.CrtYd")
 			(uuid "1433e986-c7fa-4378-9dd3-c1a5b0e06ac7")
+		)
+		(fp_text user "H3"
+			(at -1.2 0.6 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "68719f20-9559-4261-9457-63477557b50c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -32744,10 +32984,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/cfb3b2cf-1c89-403d-9862-c3bd91221e53")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -32848,6 +33085,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "3b266f20-cb5c-493f-be3f-d14cb7f39442")
+		)
+		(fp_text user "R50"
+			(at -1.65 0.73 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "b768c20c-f65f-44cb-a5c3-e6288e084a67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
@@ -39383,10 +39633,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "C_*")
 		(path "/138932fe-f685-46a1-bb06-1768136a532b/7840f25c-50ff-421c-a85e-6c473c8d3109")
-		(sheetname "[4] - MCU")
-		(sheetfile "MCU.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.146267 0.51)
@@ -39487,6 +39734,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "12abb87c-c70c-43c7-9a4f-9662245079b7")
+		)
+		(fp_text user "C9"
+			(at 0.99088 -0.7115 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "4caf0bcb-44db-46b3-a1ef-75122fbeefc4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
@@ -40819,10 +41079,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/d50f34fc-8721-40d3-9000-a0ab67bd3b93")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -40923,6 +41180,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "b62b15be-3aae-44c7-b26d-769935c4a1e6")
+		)
+		(fp_text user "R49"
+			(at -1.65 0.73 90)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "064a929c-6a53-43f0-88c5-777518a05290")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
@@ -41030,10 +41300,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "R_*")
 		(path "/25779a9b-058f-4dbc-be2a-ac20c38404a1/1af382de-4b59-4bbd-96d9-69262f7bb579")
-		(sheetname "[8] - FILTERS")
-		(sheetfile "FILTERS.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.254724 -0.5225)
@@ -41134,6 +41401,19 @@
 			)
 			(layer "F.Fab")
 			(uuid "048239fe-578e-47d1-ab55-7c4f0df68570")
+		)
+		(fp_text user "R47"
+			(at -1.65 0.73 0)
+			(unlocked yes)
+			(layer "F.CrtYd")
+			(uuid "e956732c-b70f-4ea8-bc05-07927ba1e216")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
